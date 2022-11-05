@@ -215,4 +215,8 @@ main {
     .text-bx .input-bx {
         justify-content: center;
     }
+
+    .text-bx .input-bx button {
+        font-size: 14px;
+    }
 }
