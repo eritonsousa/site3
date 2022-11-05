@@ -208,8 +208,8 @@ main {
     
     .img-bx img {
         width: 100%;
-        width: 370px;
-        height: 278px;
+        width: 270px;
+        height: 178px;
     }
 
     .text-bx {
@@ -218,6 +218,10 @@ main {
 
     .text-bx .input-bx {
         justify-content: center;
+    }
+
+    .text-bx .input-bx input {
+        padding: 0 10px;
     }
 
     .text-bx .input-bx button {
