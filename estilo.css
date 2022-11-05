@@ -141,7 +141,7 @@ main {
 }
 
 .img-bx {
-    width: 40%;
+    width: 48%;
 }
 
 .img-bx img {
@@ -201,6 +201,10 @@ main {
         width: 100%;
         text-align: center;
     }
+
+    .img-bx {
+        width: 100%;
+    }
     
     .img-bx img {
         width: 100%;
@@ -217,6 +221,6 @@ main {
     }
 
     .text-bx .input-bx button {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
