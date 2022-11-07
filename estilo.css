@@ -155,7 +155,6 @@ main {
     nav .menu-icon{
         display: block;
         background-color: white;
-        padding: 0 4px;
         border-radius: 5px;
     }
 
@@ -189,6 +188,7 @@ main {
 
     nav .logo a img {
         width: 80px; 
+        padding-left: 15px;
     }
 
     nav ul button {
@@ -205,13 +205,13 @@ main {
     .text-bx h1 {
         font-size: 1.5rem;
         margin-top: 15px;
-        padding: 55px;
+        padding: 30px;
     }
 
     .text-bx p {
         font-weight: 100;
         margin-top: 25px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .text-bx, .img-bx {
