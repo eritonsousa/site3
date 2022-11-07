@@ -32,9 +32,9 @@ nav .menu-icon {
     display: none;
 }
 
-/*nav .logo a {
-    
-}*/
+nav .logo a img {
+    width: 100px; 
+}
 
 nav ul {
     display: flex;
@@ -109,6 +109,7 @@ main {
 }
 
 .text-bx .input-bx input::placeholder {
+    opacity: 0.5;
     color: rgb(0, 140, 255);
 }
 
@@ -186,6 +187,10 @@ main {
         color: white;
     }
 
+    nav .logo a img {
+        width: 80px; 
+    }
+
     nav ul button {
         color: rgb(0, 140, 255);
         background-color: white;
@@ -195,6 +200,18 @@ main {
 
     main {
         flex-direction: column;
+    }
+
+    .text-bx h1 {
+        font-size: 1.5rem;
+        margin-top: 15px;
+        padding: 55px;
+    }
+
+    .text-bx p {
+        font-weight: 100;
+        margin-top: 25px;
+        margin-bottom: 20px;
     }
 
     .text-bx, .img-bx {
@@ -209,7 +226,7 @@ main {
     .img-bx img {
         width: 100%;
         width: 270px;
-        height: 178px;
+        height: 220px;
     }
 
     .text-bx {
@@ -217,14 +234,18 @@ main {
     }
 
     .text-bx .input-bx {
+        margin: 0 25px;
+        height: 40px;
         justify-content: center;
     }
 
     .text-bx .input-bx input {
+        height: 40px;
         padding: 0 10px;
     }
 
     .text-bx .input-bx button {
         font-size: 12px;
+        padding: 7px 20px;
     }
 }
